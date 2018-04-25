@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\timo\documents\programming\git\pad2\masterminddigits\masterminddigits\main.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  MastermindDigits.vcxproj -> C:\Users\Timo\Documents\Programming\Git\PAD2\MastermindDigits\Debug\MastermindDigits.exe

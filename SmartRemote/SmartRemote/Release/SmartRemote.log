@@ -1,11 +1,7 @@
 ﻿  main.cpp
-e:\programming\git\pad2\smartremote\smartremote\main.cpp(92): warning C4018: '<': signed/unsigned mismatch
+c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(92): warning C4018: '<': signed/unsigned mismatch
   Generating code
-<<<<<<< Updated upstream
-  1 of 192 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
-=======
-  1 of 188 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
->>>>>>> Stashed changes
+  2 of 192 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code

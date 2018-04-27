@@ -13,10 +13,10 @@ void printMenu() {
 		<< "- leise/kalt/Becher-" << endl
 		<< "1 Tchibo KM 3" << endl
 		<< "2 Radio Wohnzimmer" << endl
-		<< "3 Radio K�che" << endl
+		<< "3 Radio Küche" << endl
 		<< "4 Heizung OG" << endl
 		<< "5 Heizung EG" << endl
-		<< "? �bersicht" << endl
+		<< "? Übersicht" << endl
 		<< "0 aus" << endl
 		<< "--------------------" << endl;
 
@@ -30,7 +30,7 @@ int main() {
 	vector<GeneralDevice*> devices;
 	devices.push_back(new Radio("Tchibo KM 3", 0));
 	devices.push_back(new Radio("Radio Wohnzimmer", 40));
-	devices.push_back(new Radio("Radio K�che", 40));
+	devices.push_back(new Radio("Radio Küche", 40));
 	devices.push_back(new Radio("Heizung OG", 18));
 	devices.push_back(new Radio("Heizung EG", 18));
 
@@ -45,7 +45,7 @@ int main() {
 		if (input != '?') {
 			SetConsoleTextAttribute(hConsole, 11);
 			if (actualDevice != nullptr) {
-				cout << "Momentan ausgew�hlt: " << *actualDevice << endl;
+				cout << "Momentan ausgewählt: " << *actualDevice << endl;
 			}
 			SetConsoleTextAttribute(hConsole, 7);
 		}
@@ -61,7 +61,7 @@ int main() {
 		case '+':
 			if (actualDevice == nullptr) {
 				SetConsoleTextAttribute(hConsole, 4);
-				cout << endl << "Kein Ger�t ausgew�hlt!" << endl;
+				cout << endl << "Kein Gerät ausgew�hlt!" << endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				break;
 			}
@@ -72,7 +72,7 @@ int main() {
 		case '-':
 			if (actualDevice == nullptr) {
 				SetConsoleTextAttribute(hConsole, 4);
-				cout << endl << "Kein Ger�t ausgew�hlt!" << endl;
+				cout << endl << "Kein Gerät ausgew�hlt!" << endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				break;
 			}

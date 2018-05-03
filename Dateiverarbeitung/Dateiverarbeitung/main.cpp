@@ -1,14 +1,14 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-#include <iomanip>
+#include "Team.h"
 
 using namespace std;
 
 int main() {
-	//ifstream test("dwadwa",ios::in);
-	char test;
-	cin >> test;
-	cout << hex << test;
-	cin >> test;
+	ifstream is("C:/Users/Timo/Documents/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios_base::in);
+	Team test;
+	test.read(is);
+	cout << test.toString();
+	cin.ignore();
 }

@@ -1,0 +1,36 @@
+﻿  Coffeemachine.cpp
+  GeneralDevice.cpp
+  Heating.cpp
+  Radio.cpp
+  main.cpp
+c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(59): error C2440: '=': cannot convert from 'std::vector<GeneralDevice *,std::allocator<_Ty>>' to 'GeneralDevice *'
+          with
+          [
+              _Ty=GeneralDevice *
+          ]
+  c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(59): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(85): error C3312: no callable 'begin' function found for type 'std::vector<GeneralDevice *,std::allocator<_Ty>> *'
+          with
+          [
+              _Ty=GeneralDevice *
+          ]
+c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(85): error C3312: no callable 'end' function found for type 'std::vector<GeneralDevice *,std::allocator<_Ty>> *'
+          with
+          [
+              _Ty=GeneralDevice *
+          ]
+c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(86): error C2065: 'device': undeclared identifier
+c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(92): error C2228: left of '.size' must have class/struct/union
+  c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(92): note: type is 'std::vector<GeneralDevice *,std::allocator<_Ty>> *'
+          with
+          [
+              _Ty=GeneralDevice *
+          ]
+  c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(92): note: did you intend to use '->' instead?
+c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(93): error C2440: 'delete': cannot convert from 'std::vector<GeneralDevice *,std::allocator<_Ty>>' to 'void*'
+          with
+          [
+              _Ty=GeneralDevice *
+          ]
+  c:\users\timo\documents\programming\git\pad2\smartremote\smartremote\main.cpp(93): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  Generating Code...

@@ -21,6 +21,18 @@ string Team::toString()
 
 ifstream & Team::read(ifstream & file)
 {
-	file.read(reinterpret_cast<char*>(this),sizeof(Team));
+	file.read(reinterpret_cast<char*>(this), sizeof(Team));
 	return file;
+}
+
+bool Team::operator<(Team comp) const
+{
+	if (pointsWon < comp.pointsWon) {
+		return true;
+	}else if(comp.pointsLost<pointsLost) {
+		return true;
+	}else if((gamesWon-gamesLost)<(comp.gamesWon-comp.gamesLost)) {
+		return true;
+	}
+	return false;
 }

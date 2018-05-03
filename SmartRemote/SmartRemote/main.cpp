@@ -13,10 +13,10 @@ void printMenu() {
 		<< "- leise/kalt/Becher-" << endl
 		<< "1 Tchibo KM 3" << endl
 		<< "2 Radio Wohnzimmer" << endl
-		<< "3 Radio Küche" << endl
+		<< "3 Radio K\x81 \bche" << endl
 		<< "4 Heizung OG" << endl
 		<< "5 Heizung EG" << endl
-		<< "? Übersicht" << endl
+		<< "? \x9A \bbersicht" << endl
 		<< "0 aus" << endl
 		<< "--------------------" << endl;
 
@@ -25,14 +25,14 @@ void printMenu() {
 
 
 int main() {
-	setlocale(LC_ALL, "");
+	//setlocale(LC_ALL, "");
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	vector<GeneralDevice*> devices;
-	devices.push_back(new Radio("Tchibo KM 3", 0));
+	devices.push_back(new CoffeeMachine("Tchibo KM 3", 0));
 	devices.push_back(new Radio("Radio Wohnzimmer", 40));
-	devices.push_back(new Radio("Radio Küche", 40));
-	devices.push_back(new Radio("Heizung OG", 18));
-	devices.push_back(new Radio("Heizung EG", 18));
+	devices.push_back(new Radio("Radio K\x81 \bche", 40));
+	devices.push_back(new Heating("Heizung OG", 18));
+	devices.push_back(new Heating("Heizung EG", 18));
 
 
 
@@ -45,7 +45,7 @@ int main() {
 		if (input != '?') {
 			SetConsoleTextAttribute(hConsole, 11);
 			if (actualDevice != nullptr) {
-				cout << "Momentan ausgewählt: " << *actualDevice << endl;
+				cout << "Momentan ausgew\x84 \bhlt: " << *actualDevice << endl;
 			}
 			SetConsoleTextAttribute(hConsole, 7);
 		}
@@ -61,7 +61,7 @@ int main() {
 		case '+':
 			if (actualDevice == nullptr) {
 				SetConsoleTextAttribute(hConsole, 4);
-				cout << endl << "Kein Gerät ausgew�hlt!" << endl;
+				cout << endl << "Kein Ger\x84 \bt ausgew\x84 \bhlt!" << endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				break;
 			}
@@ -72,7 +72,7 @@ int main() {
 		case '-':
 			if (actualDevice == nullptr) {
 				SetConsoleTextAttribute(hConsole, 4);
-				cout << endl << "Kein Gerät ausgew�hlt!" << endl;
+				cout << endl << "Kein Ger\x84 \bt ausgew\x84 \bhlt!" << endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				break;
 			}

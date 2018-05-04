@@ -8,6 +8,7 @@ public:
 	Table();
 	~Table();
 	void read(ifstream& file);
+	void write(ofstream& file);
 	string toString() const;
 	void sort();
 private:

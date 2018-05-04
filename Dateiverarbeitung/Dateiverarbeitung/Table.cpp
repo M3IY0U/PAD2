@@ -19,6 +19,13 @@ void Table::read(ifstream & file)
 	}
 }
 
+void Table::write(ofstream & file)
+{
+	for(Team team :teams) {
+		team.write(file);
+	}
+}
+
 string Table::toString() const
 {
 	stringstream result;

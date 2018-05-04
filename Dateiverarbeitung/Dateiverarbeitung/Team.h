@@ -11,8 +11,8 @@ public:
 	~Team();
 	string toString();
 	ifstream& read(ifstream& file);
-	bool operator<(Team comp) const;
-
+	void write(ofstream& file);
+	bool operator<(Team& comp) const;
 private:
 	char teamName[20];
 	int matchesPlayed;

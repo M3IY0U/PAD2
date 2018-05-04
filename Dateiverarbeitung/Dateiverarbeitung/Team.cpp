@@ -25,7 +25,7 @@ ifstream & Team::read(ifstream & file)
 	return file;
 }
 
-bool Team::operator<(Team comp) const
+bool Team::operator<(Team& comp) const
 {
 	if (pointsWon < comp.pointsWon) {
 		return true;
@@ -35,4 +35,9 @@ bool Team::operator<(Team comp) const
 		return true;
 	}
 	return false;
+}
+
+void Team::write(ofstream & file)
+{
+	file.write(reinterpret_cast<char*>(this), sizeof(Team));
 }

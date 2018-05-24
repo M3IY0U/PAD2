@@ -9,9 +9,9 @@ int main() {
 	Table test;
 
 	//Desktop
-	ifstream is("E:/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios_base::in | ios_base::binary);
+	//ifstream is("E:/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios::in | ios::binary);
 	//Laptop
-	//ifstream is("C:/Users/Timo/Documents/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios_base::in);
+	ifstream is("C:/Users/Timo/Documents/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios_base::in);
 
 	test.read(is);
 	is.close();
@@ -19,7 +19,8 @@ int main() {
 	test.sort();
 	cout << endl << test.toString();
 	cin.ignore();
-	ofstream os("output.txt", ios_base::out | ios_base::binary);
-	test.write(os);
+	ofstream os("output.txt", ios::out);
+	os << test.toString() << endl;
+	//test.write(os);
 	os.close();
 }

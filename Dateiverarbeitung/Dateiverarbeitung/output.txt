@@ -1,12 +1,12 @@
                     Name  Gesp. Matches    Gew. Spiele   Verl. Spiele    Gew. Punkte   Verl. Punkte
-              TV Seeheim             18             30            101              4             32
-       SV Moerlenbach II             18             53             90             11             25
-     TTC Langen-Brombach             18             60             94             12             24
-            TSV Auerbach             18             64             86             14             22
-          TSV Ernsthofen             18             68             83             14             22
-      DJK/Scc Pfungstadt             18             79             78             16             20
-            TV Buerstadt             18             88             58             21             15
-            TV Stockheim             18             87             54             24             12
-          TSV Hoechst II             18             91             48             28              8
          SV Crumstadt II             18            108             36             36              0
+          TSV Hoechst II             18             91             48             28              8
+            TV Stockheim             18             87             54             24             12
+            TV Buerstadt             18             88             58             21             15
+      DJK/Scc Pfungstadt             18             79             78             16             20
+          TSV Ernsthofen             18             68             83             14             22
+            TSV Auerbach             18             64             86             14             22
+     TTC Langen-Brombach             18             60             94             12             24
+       SV Moerlenbach II             18             53             90             11             25
+              TV Seeheim             18             30            101              4             32
 

@@ -11,15 +11,14 @@ int main() {
 	//Desktop
 	//ifstream is("E:/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios::in | ios::binary);
 	//Laptop
-	ifstream is("C:/Users/Timo/Documents/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios_base::in);
-
+	ifstream is("C:/Users/Timo/Documents/Programming/Git/PAD2/Dateiverarbeitung/Dateiverarbeitung/tabletennis.dta", ios::in | ios::binary);
 	test.read(is);
 	is.close();
 	cout << test.toString();
 	test.sort();
 	cout << endl << test.toString();
 	cin.ignore();
-	ofstream os("output.txt", ios::out);
+	ofstream os("output.txt", ios::out | ios::binary);
 	os << test.toString() << endl;
 	//test.write(os);
 	os.close();

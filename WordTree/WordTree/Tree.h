@@ -20,7 +20,6 @@ public:
 	~Tree(); // destructor
 	Tree(const Tree&) = delete; // no copies of Tree-objects allowed               
 	const Tree& operator=(const Tree&) = delete; // no assignment allowed               
-
 	void insertNode(const NODETYPE &);
 	std::string preOrderTraversal() const;
 	std::string inOrderTraversal() const;
@@ -28,9 +27,11 @@ public:
 	TreeNode< NODETYPE > * binaryTreeSearch(const NODETYPE &) const;
 	std::string toString() const;
 	void deleteNode(const NODETYPE &);
+	unsigned getNodeCount() const { return nodeCount; }
+
 private:
 	TreeNode< NODETYPE > * rootPtr;
-
+	unsigned nodeCount = 0;
 	// utility functions
 	void insertNodeHelper(TreeNode< NODETYPE > *&, const NODETYPE &);
 	void preOrderHelper(TreeNode< NODETYPE > *, std::stringstream &) const;
@@ -75,6 +76,7 @@ void Tree< NODETYPE >::insertNodeHelper(TreeNode< NODETYPE > *& ptr, const NODET
 	// subtree is empty; create new TreeNode containing value
 	if (ptr == nullptr) {
 		ptr = new TreeNode< NODETYPE >(value);
+		nodeCount++;
 	} // end if
 	else { // subtree is not empty
 		   // data to insert is less than data in current node

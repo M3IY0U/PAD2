@@ -21,7 +21,7 @@ void Table::read(ifstream & file)
 
 void Table::write(ofstream & file)
 {
-	for(Team team :teams) {
+	for (Team team : teams) {
 		team.write(file);
 	}
 }
@@ -41,5 +41,5 @@ string Table::toString() const
 
 void Table::sort()
 {
-	std::sort(teams.begin(), teams.end());
+	std::sort(teams.rbegin(), teams.rend());
 }

@@ -21,7 +21,7 @@ void printMenu() {
 
 
 bool cmp(Year& a, Year& b) {
-	return a.returnAverage() > b.returnAverage();
+	return a.getAverage() > b.getAverage();
 }
 
 
@@ -33,7 +33,7 @@ bool seasonCmp(pair<string, pair<int, double>>& a, pair<string, pair<int, double
 int main() {
 	setlocale(LC_ALL, "");
 	setlocale(LC_NUMERIC, "");
-
+	srand(unsigned(time(nullptr)));
 
 	//START READING IN ///////////////////////////////////////////////
 	vector<Year> years;
@@ -80,7 +80,7 @@ int main() {
 			ofstream output("Durchschnittstemperaturen.txt", ios::out);
 			vector<Year> sortedYears = years;
 			sort(sortedYears.begin(), sortedYears.end(), cmp);
-			for (auto i = 0; i < years.size(); i++) {
+			for (size_t i = 0; i < years.size(); i++) {
 				cout << years[i].printAverage();
 				output << sortedYears[i].printAverage();
 			}
@@ -90,16 +90,16 @@ int main() {
 		case '2': {
 			Year lowest = years[0];
 			Year highest = years[0];
-			for (auto i = 0; i < years.size(); i++) {
-				if (years[i].returnHighest().second > highest.returnHighest().second) {
+			for (size_t i = 0; i < years.size(); i++) {
+				if (years[i].getHighest().second > highest.getHighest().second) {
 					highest = years[i];
 				}
-				if (years[i].returnLowest().second < lowest.returnLowest().second) {
+				if (years[i].getLowest().second < lowest.getLowest().second) {
 					lowest = years[i];
 				}
 			}
-			cout << "Kältester Monat: " << lowest.returnLowest().first << " " << lowest.getYear() << " mit " << lowest.returnLowest().second << " Grad Celsius Durchschnittstemperatur." << endl
-				<< "Wärmster Monat: " << highest.returnHighest().first << " " << highest.getYear() << " mit " << highest.returnHighest().second << " Grad Celsius Durchschnittstemperatur." << endl;
+			cout << "Kältester Monat: " << lowest.getLowest().first << " " << lowest.getYear() << " mit " << lowest.getLowest().second << " Grad Celsius Durchschnittstemperatur." << endl
+				<< "Wärmster Monat: " << highest.getHighest().first << " " << highest.getYear() << " mit " << highest.getHighest().second << " Grad Celsius Durchschnittstemperatur." << endl;
 
 		}
 				  break;
@@ -108,25 +108,25 @@ int main() {
 			vector <pair<string, pair<int, double>>> seasonTemp;
 			pair<string, pair<int, double>>  toPush;
 			ofstream output("Jahreszeiten.txt", ios::out);
-			for (auto i = 0; i < years.size(); i++) {
+			for (size_t i = 0; i < years.size(); i++) {
 				toPush.first = "Frühling";
-				toPush.second = years[i].returnFruehling();
+				toPush.second = years[i].getFruehling();
 				seasonTemp.push_back(toPush);
 
 				toPush.first = "Sommer";
-				toPush.second = years[i].returnSommer();
+				toPush.second = years[i].getSommer();
 				seasonTemp.push_back(toPush);
 
 				toPush.first = "Herbst";
-				toPush.second = years[i].returnHerbst();
+				toPush.second = years[i].getHerbst();
 				seasonTemp.push_back(toPush);
 
 				toPush.first = "Winter";
-				toPush.second = years[i].returnWinter();
+				toPush.second = years[i].getWinter();
 				seasonTemp.push_back(toPush);
 			}
 			sort(seasonTemp.begin(), seasonTemp.end(), seasonCmp);
-			for (auto i = 0; i < seasonTemp.size(); i++) {
+			for (size_t i = 0; i < seasonTemp.size(); i++) {
 				output << setprecision(2) << seasonTemp[i].first << " " << to_string(seasonTemp[i].second.first) << " mit " << seasonTemp[i].second.second << " Grad Celsius Durchschnittstemperatur" << endl;
 				cout << setprecision(2) << seasonTemp[i].first << " " << to_string(seasonTemp[i].second.first) << " mit " << seasonTemp[i].second.second << " Grad Celsius Durchschnittstemperatur" << endl;
 			}
@@ -136,18 +136,33 @@ int main() {
 
 		case '4': {
 			vector<Year> sortedYears = years;
+			vector<Year> shuffledYears = years;
+			random_shuffle(shuffledYears.begin(), shuffledYears.end());
 			sort(sortedYears.rbegin(), sortedYears.rend(), cmp);
-			cout << "n " << setw(10) << "Prozentsatz" << endl;
+			cout << "n " << setw(10) << "Prozentsatz" << setw(20) << "theoretischer Prozentsatz" << endl;
 			for (auto n = 5; n < 131; n += 5) {
 				double count = 0;
+				double scount = 0;
+				//SORTED YEARS
 				for (auto i = years.size() - 1; i > years.size() - (n + 1); i--) {
-					for (auto j = 0; j < years.size() - n; j++) {
-						if (years[i].getYear() == sortedYears[i - j].getYear()) {
+					for (auto j = sortedYears.size() - 1; j >= sortedYears.size() - n; j--) {
+						if (years[i].getYear() == sortedYears[j].getYear()) {
 							count++;
 						}
 					}
 				}
-				cout << n << setw(10) << (count * 100) / n << endl;
+				//SHUFFLED YEARS
+				for (auto i = years.size() - 1; i > years.size() - (n + 1); i--) {
+					for (auto j = shuffledYears.size() - 1; j >= shuffledYears.size() - n; j--) {
+						if (years[i].getYear() == shuffledYears[j].getYear()) {
+							scount++;
+						}
+					}
+				}
+
+
+
+				cout << setprecision(3) << n << setw(10) << (count * 100) / n << setw(20) << (scount * 100) / n << endl;
 			}
 
 

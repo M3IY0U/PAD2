@@ -1,7 +1,2 @@
 ﻿  main.cpp
-e:\programming\git\pad2\yeartemperature\yeartemperature\main.cpp(83): warning C4018: '<': signed/unsigned mismatch
-e:\programming\git\pad2\yeartemperature\yeartemperature\main.cpp(93): warning C4018: '<': signed/unsigned mismatch
-e:\programming\git\pad2\yeartemperature\yeartemperature\main.cpp(111): warning C4018: '<': signed/unsigned mismatch
-e:\programming\git\pad2\yeartemperature\yeartemperature\main.cpp(129): warning C4018: '<': signed/unsigned mismatch
-e:\programming\git\pad2\yeartemperature\yeartemperature\main.cpp(144): warning C4018: '<': signed/unsigned mismatch
-  YearTemperature.vcxproj -> E:\Programming\Git\PAD2\YearTemperature\Debug\YearTemperature.exe
+  YearTemperature.vcxproj -> C:\Users\Timo\Documents\Programming\Git\PAD2\YearTemperature\Debug\YearTemperature.exe

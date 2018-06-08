@@ -9,14 +9,14 @@ public:
 	void readTemp(string, double);
 	string printAverage();
 	void calcTemps();
-	double returnAverage() const { return averageTemp; }
-	pair<string, double> returnHighest() const { return highestMonth; }
-	pair<string, double> returnLowest() const { return lowestMonth; }
+	double getAverage() const { return averageTemp; }
+	pair<string, double> getHighest() const { return highestMonth; }
+	pair<string, double> getLowest() const { return lowestMonth; }
 	int getYear() const { return yearName; }
-	pair<int, double> returnFruehling() const { return fruehling; }
-	pair<int, double> returnSommer() const { return sommer; }
-	pair<int, double> returnHerbst() const { return herbst; }
-	pair<int, double> returnWinter() const { return winter; }
+	pair<int, double> getFruehling() const { return fruehling; }
+	pair<int, double> getSommer() const { return sommer; }
+	pair<int, double> getHerbst() const { return herbst; }
+	pair<int, double> getWinter() const { return winter; }
 
 private:
 	void calcLowestHighest();

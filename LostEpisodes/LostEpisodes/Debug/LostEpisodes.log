@@ -1,2 +1,7 @@
-﻿  main.cpp
-  LostEpisodes.vcxproj -> E:\Programming\Git\PAD2\LostEpisodes\Debug\LostEpisodes.exe
+﻿  Episode.cpp
+c:\users\timo\documents\programming\git\pad2\lostepisodes\lostepisodes\episode.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\timo\documents\programming\git\pad2\lostepisodes\lostepisodes\episode.cpp(53): warning C4018: '<': signed/unsigned mismatch
+c:\users\timo\documents\programming\git\pad2\lostepisodes\lostepisodes\episode.cpp(61): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  LostEpisodes.vcxproj -> C:\Users\Timo\Documents\Programming\Git\PAD2\LostEpisodes\Debug\LostEpisodes.exe

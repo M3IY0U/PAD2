@@ -27,7 +27,7 @@ Episode::Episode(string nr, string titleGer, string titleEn, string content) :ep
 			wordCount[word]++;
 		}
 	}
-	//????????????????????
+
 	auto cmp = [](pair<string, int> const & a, pair<string, int> const & b) {
 		return a.second > b.second;
 	};

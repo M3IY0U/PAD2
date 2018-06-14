@@ -55,7 +55,7 @@ int main() {
 	char menuinput = '1';
 
 
-	while (menuinput != '9') {
+	do {
 		printMenu();
 		cin >> menuinput;
 		switch (menuinput) {
@@ -73,12 +73,11 @@ int main() {
 				<< "Inhalt:" << episodes[episodenauswahl].returnContent() << endl << endl;
 		}
 				  break;
+
+
 		case '2': {
 			cout << "Von welcher Episode sollen die Rückblicke ausgegeben werden: ";
-
-
 			cin >> episodenauswahl;
-
 			cout << endl;
 			int fbn = 1;
 			//suchen von flashbacks
@@ -88,26 +87,19 @@ int main() {
 			}
 		}
 				  break;
+
+
 		case '3': {
 			cout << left << "Von welcher Episode sollen die 15 häufigsten Wörter ausgegeben werden: ";
 			cin >> episodenauswahl;
 			Episode episode = episodes[episodenauswahl];
-			// int i = 0;
-			// for (auto wort : episode.getFlashbackWords()) {
-			// 	if (i++ == 15) {
-			// 		break;
-			// 	}
-			// 	cout << setw(4) << wort.second << setw(30) << wort.first << endl;
-			// }
 
 			for (auto i = 0; i < 15; i++) {
 				cout << setw(4) << episode.getFlashbackWords()[i].second << setw(30) << episode.getFlashbackWords()[i].first << endl;
 			}
-
-
-
 		}
 				  break;
+
 
 		case '4': {
 
@@ -115,94 +107,20 @@ int main() {
 			for (double i = 1.01; i < 1.25; i += 0.01) {
 				string it = to_string(i);
 				it.erase(4, string::npos);
-				cout << left << setw(2) << it << "\t    " << internal << episodes[it].returntitleGer() << setw((43- episodes[it].returntitleGer().size())) << internal << episodes[it].getActors() << endl;
+				cout << left << setw(2) << it << "\t    " << internal << episodes[it].returntitleGer() << setw((43 - episodes[it].returntitleGer().size())) << internal << episodes[it].getActors() << endl;
 
 			}
-
-
-
-			/*	stringstream ss;
-			ifstream actorfile("Hauptpersonen.txt", ios::in);
-
-			map<string, int> actors;
-			string actor;
-
-			//initialize actor fields with 0
-			while (actorfile >> actor) {
-				actors[actor] = 0;
-			}
-
-
-
-
-			//episodes["1.01"].getFlashbackWords()[1].first == actors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						int counter = 0;
-						//go through each episode
-						for (double i = 1.01; i < 1.25; i += 0.01) {
-							string result = "keine spezielle";
-							string it = to_string(i);
-							it.erase(4, string::npos);
-							istringstream ainput(episodes[it].getFlashbackWords()[counter].first);
-							string word;
-							while (ainput >> word) {
-								if (actors.find(word) != actors.end()) {
-									actors[word]++;
-								}
-								if (actors[word] > 4) {
-									result = word;
-								}
-							}
-
-							// for (auto & a : actors) {
-							// 	if (a.second > 4) {
-							// 		ss << a.first << ",";
-							// 	}
-							// }
-							counter++;
-
-
-
-
-								cout << right << setw(2) << it<< right<<setw(8)  << episodes[it].returntitleGer() << setw(34)<<right << result << endl;
-
-						}
-			*/
-
 		}
-
-
-
+				  break;
 
 
 		case '9':
 			break;
+
+
 		default:
 			cout << "Invalid Input!" << endl;
 			break;
 		}
-	}
-
-
-
-
-
+	} while (menuinput != '9');
 }

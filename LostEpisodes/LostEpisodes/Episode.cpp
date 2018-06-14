@@ -34,7 +34,7 @@ Episode::Episode(string nr, string titleGer, string titleEn, string content) :ep
 
 	flashbackWords = vector<pair<string, int>>(wordCount.begin(), wordCount.end());
 
-	sort(flashbackWords.begin(), flashbackWords.end(), cmp);
+	std::sort(flashbackWords.begin(), flashbackWords.end(), cmp);
 
 }
 

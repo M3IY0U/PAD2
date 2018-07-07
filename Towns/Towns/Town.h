@@ -10,6 +10,7 @@ public:
 	string getName() const { return name; }
 	int getPopulation() const { return population; }
 	string getContinent() const { return continent; }
+	void setPopulation(int p) { population = p; }
 	string toString();
 private:
 	string land;

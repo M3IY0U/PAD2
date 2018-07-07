@@ -9,6 +9,7 @@
 using namespace std;
 
 
+bool viercmp(Town& a, Town& b) { return a.getPopulation() > b.getPopulation(); }
 bool cmp(Town& a, Town& b) { if (a.getLand() == b.getLand()) { return a.getName() < b.getName(); } return a.getLand() < b.getLand(); }
 bool popcmp(Town& a, Town& b) { if (a.getLand() == b.getLand()) { return a.getPopulation() > b.getPopulation(); } return a.getLand() < b.getLand(); }
 bool dreicmp(pair<string, unsigned>& a, pair<string, unsigned>& b) { return a.second > b.second; }
@@ -24,10 +25,10 @@ void printMenu() {
 
 }
 
-void ignoreLines(ifstream& infile,unsigned n,char d='\n') {
+void ignoreLines(ifstream& infile, unsigned n, char d = '\n') {
 	string dummy;
-	for (auto i = 0; i < n; i++) {
-		getline(infile, dummy,d);
+	for (unsigned i = 0; i < n; i++) {
+		getline(infile, dummy, d);
 	}
 }
 
@@ -37,11 +38,9 @@ int main() {
 	ifstream infile("Towns.txt", ios::in);
 	vector<Town> towns;
 	vector<pair<string, unsigned>> countries;
-	//Ignore first two lines
+	//Ignore first three lines
 	string temp;
-	getline(infile, temp);
-	getline(infile, temp);
-	getline(infile, temp);
+	ignoreLines(infile, 3);
 	//START READING IN//////////////////////
 	string n, p, l, c;
 	while (!infile.eof()) {
@@ -54,6 +53,7 @@ int main() {
 			break;
 		p.erase(remove(p.begin(), p.end(), '.'), p.end());
 		l.erase(0, 3);
+		c.erase(0,1);
 		Town town(l, n, stoi(p), c);
 		towns.push_back(town);
 		pair<string, unsigned> toInsert = make_pair(l, 0);
@@ -73,51 +73,84 @@ int main() {
 		case '1': {
 			vector<Town> ltowns = towns;
 			sort(ltowns.begin(), ltowns.end(), cmp);
-			for (auto i = 0; i < ltowns.size(); i++) {
+			for (unsigned i = 0; i < ltowns.size(); i++) {
 				cout << ltowns[i].toString();
 			}
 		}	break;
 
+
+
 		case '2': {
 			vector<Town> ptowns = towns;
 			sort(ptowns.begin(), ptowns.end(), popcmp);
-			for (auto i = 0; i < ptowns.size(); i++) {
+			for (unsigned i = 0; i < ptowns.size(); i++) {
 				cout << ptowns[i].toString();
 			}
 		}	break;
 
+
+
 		case '3': {
-			for (auto i = 0; i < countries.size(); i++) {
-				for (auto j = 0; j < towns.size(); j++) {
-					if (countries[i].first == towns[j].getLand()) {
-						countries[i].second += towns[j].getPopulation();
+			for (auto& country : countries) {
+				for (auto& town : towns) {
+					if (country.first == town.getLand()) {
+						country.second += town.getPopulation();
 					}
 				}
 			}
 
+			sort(countries.begin(), countries.end(), dreicmp);
 
-
-			sort(countries.begin(), countries.end(),dreicmp);
-
-			for (auto i = 0; i < countries.size(); i++) {
-				cout << setfill('.') << countries[i].first << setw(45 - countries[i].first.length()) << countries[i].second << endl;
+			for (auto& country : countries) {
+				cout << setfill('.') << country.first << setw(45 - country.first.length()) << country.second << endl;
 			}
 
 		}	break;
 
+
+
 		case '4': {
 			ifstream growth("Growth.txt", ios::in);
-			string sgAsien, sgAfrika, sgSamerika, sgEuropa, sgNamerika, sgAustralien;
-			double gAsien, gAfrika, gSamerika, gEuropa, gNamerika, gAustralien;
-			ignoreLines(growth, 4);
-			getline(growth, temp, '\t');
-			getline(growth, sgAsien, '\t');
-			getline(growth, temp,'\t');
+			vector<Town> gTowns = towns;
+			map<string, double> growthMap;
+			string past, future, name;
+			ignoreLines(growth, 3); //Ignore first 3 lines
+			while (!growth.eof()) {
+				getline(growth, name, '\t');//Ignore descriptor
+				getline(growth, past, '\t');//read in first value
+				getline(growth, temp, '\t');//ignore middle value
+				getline(growth, future);//read in last value
+				if (growth.eof()) { break; }
+				
+				double rate = 1 + (stod(future)-stod(past))/stod(past);
 
-			getline(growth, sgAsien, '\t');
-
-
-
+				growthMap.insert(make_pair(name, rate));
+			}
+			
+			for (auto& gTown : gTowns) {
+				if (gTown.getContinent() == "Asien") {
+					gTown.setPopulation(gTown.getPopulation()*growthMap["Asien"]);
+				}
+				else if (gTown.getContinent() == "Afrika") {
+					gTown.setPopulation(gTown.getPopulation()*growthMap["Afrika"]);
+				}
+				else if (gTown.getContinent() == "Südamerika") {
+					gTown.setPopulation(gTown.getPopulation()*growthMap["Südamerika"]);
+				}
+				else if (gTown.getContinent() == "Europa") {
+					gTown.setPopulation(gTown.getPopulation()*growthMap["Europa"]);
+				}
+				else if (gTown.getContinent() == "Nordamerika") {
+					gTown.setPopulation(gTown.getPopulation()*growthMap["Nordamerika"]);
+				}
+				else if (gTown.getContinent() == "Australien") {
+					gTown.setPopulation(gTown.getPopulation()*growthMap["Australien"]);
+				}
+			}
+			sort(gTowns.begin(), gTowns.end(), viercmp);
+			for (auto& gTown : gTowns) {
+				cout << gTown.toString();
+			}
 		}	break;
 
 		case '9':

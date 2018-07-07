@@ -1,0 +1,309 @@
+Millionenstädte 2010; Quelle: Wikipedia
+Stadt; Einwohner; Land ; Kontinent 
+
+Shanghai; 18.328.904;   China; Asien
+Peking; 15.796.450;   China; Asien
+Istanbul; 13.820.194;   Türkei; Asien
+Karatschi; 11.846.509;   Pakistan; Asien
+Mumbai; 11.671.924;   Indien; Asien
+Moskau; 11.196.438;   Russland; Europa
+Delhi; 10.972.065;   Indien; Asien
+Sao Paulo; 10.832.496;   Brasilien; Südamerika
+Seoul; 10.427.819;   Südkorea; Asien
+Jakarta; 9.681.453;   Indonesien; Asien
+Lagos; 9.349.501;   Nigeria; Afrika
+Mexiko-Stadt; 8.937.442;   Mexiko; Nordamerika
+Tokio; 8.726.529;   Japan; Asien
+Shenzhen; 8.696.429;   China; Asien
+New York; 8.541.935;   Vereinigte Staaten; Nordamerika
+Kinshasa; 8.120.976;   Demokratische Republik Kongo; Afrika
+Teheran; 7.706.819;   Iran; Asien
+Kairo; 7.416.083;   Ägypten; Afrika
+Bangkok; 7.229.651;   Thailand; Asien
+London; 7.099.845;   Vereinigtes Königreich; Europa
+Hongkong; 7.012.849;   Hongkong; Asien
+Lima; 6.802.571;   Peru; Südamerika
+Dhaka; 6.730.264;   Bangladesch; Asien
+Lahore; 6.499.085;   Pakistan; Asien
+Bogotá; 6.319.720;   Kolumbien; Südamerika
+Rio de Janeiro; 6.023.742;   Brasilien; Südamerika
+Bagdad; 5.672.513;   Irak; Asien
+Bengaluru; 5.281.927;   Indien; Asien
+Ho-Chi-Minh-Stadt; 5.140.412;   Vietnam; Asien
+Santiago de Chile; 4.837.248;   Chile; Südamerika
+Ankara; 4.650.802;   Türkei; Asien
+Kolkata; 4.643.011;   Indien; Asien
+Rangun; 4.477.638;   Myanmar; Asien
+Chennai; 4.376.400;   Indien; Asien
+Wuhan; 4.184.206;   China; Asien
+Riad; 4.087.152;   Saudi-Arabien; Asien
+Sankt Petersburg; 4.039.745;   Russland; Europa
+Chongqing; 3.967.028;   China; Asien
+Chengdu; 3.950.437;   China; Asien
+Xi'an; 3.935.191;   China; Asien
+Los Angeles; 3.834.340;   Vereinigte Staaten; Nordamerika
+Ahmedabad; 3.819.497;   Indien; Asien
+Alexandria; 3.811.516;   Ägypten; Afrika
+Sydney; 3.774.894;   Australien; Australien
+Tianjin; 3.766.207;   China; Asien
+Abidjan; 3.692.570;   Elfenbeinküste; Afrika
+Busan; 3.678.551;   Südkorea; Asien
+Hyderabad; 3.665.106;   Indien; Asien
+Kano; 3.626.204;   Nigeria; Afrika
+Singapur; 3.583.100;   Singapur; Asien
+Yokohama; 3.654.427;   Japan; Asien
+Ibadan; 3.565.810;   Nigeria; Afrika
+Shenyang; 3.512.192;   China; Asien
+Berlin; 3.457.675;   Deutschland; Europa
+Melbourne; 3.384.671;   Australien; Australien
+Durban; 3.346.799;   Südafrika; Afrika
+Harbin; 3.229.883;   China; Asien
+Johannesburg; 3.225.608;   Südafrika; Afrika
+Madrid; 3.213.271;   Spanien; Europa
+Surat; 3.156.578;   Indien; Asien
+Pune; 3.153.883;   Indien; Asien
+Guangzhou; 3.152.825;   China; Asien
+Nanjing; 3.087.010;   China; Asien
+Kanpur; 2.975.526;   Indien; Asien
+Omdurman; 2.970.099;   Sudan; Afrika
+Casablanca; 2.933.684;   Marokko; Afrika
+Jaipur; 2.926.915;   Indien; Asien
+Pjöngjang; 2.926.443;   Nordkorea; Asien
+Chicago; 2.836.658;   Vereinigte Staaten; Nordamerika
+Addis Abeba; 2.823.167;   Äthiopien; Afrika
+Athen; 2.805.262;   Griechenland; Europa
+Dschidda; 2.801.481;   Saudi-Arabien; Asien
+Luanda; 2.776.125;   Angola; Afrika
+Nairobi; 2.765.657;   Kenia; Afrika
+Buenos Aires; 2.746.761;   Argentinien; Südamerika
+Taiyuan; 2.722.475;   China; Asien
+Salvador da Bahia; 2.711.903;   Brasilien; Südamerika
+Daressalam; 2.698.651;   Tansania; Afrika
+Kiew; 2.660.401;   Ukraine; Europa
+Osaka; 2.628.776;   Japan; Asien
+Taipeh; 2.622.472;   Taiwan; Asien
+Lakhnau; 2.611.300;   Indien; Asien
+Faisalabad; 2.582.175;   Pakistan; Asien
+Incheon; 2.580.775;   Südkorea; Asien
+Daegu; 2.566.537;   Südkorea; Asien
+Izmir; 2.557.851;   Türkei; Asien
+Rom; 2.553.873;   Italien; Europa
+Changchun; 2.537.421;   China; Asien
+Toronto; 2.503.281;   Kanada; Nordamerika
+Quezon City; 2.455.943;   Philippinen; Asien
+Gizeh; 2.443.203;   Ägypten; Afrika
+Kabul; 2.436.000;   Afghanistan; Asien
+Sana'a; 2.431.649;   Jemen; Asien
+Tunis; 2.380.500;   Tunesien; Afrika
+Kapstadt; 2.375.910;   Südafrika; Afrika
+Belo Horizonte; 2.373.255;   Brasilien; Südamerika
+Surabaya; 2.358.111;   Indonesien; Asien
+Nagpur; 2.317.946;   Indien; Asien
+Fortaleza; 2.311.911;   Brasilien; Südamerika
+Maschhad; 2.307.254;   Iran; Asien
+Cali; 2.287.819;   Kolumbien; Südamerika
+Santo Domingo; 2.253.437;   Dominikanische Republik; Nordamerika
+Nagoya; 2.215.031;   Japan; Asien
+Houston; 2.208.180;   Vereinigte Staaten; Nordamerika
+Havanna; 2.192.500;   Kuba; Nordamerika
+Paris; 2.181.371;   Frankreich; Europa
+Guayaquil; 2.157.853;   Ecuador; Südamerika
+Chittagong; 2.123.709;   Bangladesch; Asien
+Khartum; 2.090.001;   Sudan; Afrika
+Changsha; 2.073.938;   China; Asien
+Jinan; 2.069.266;   China; Asien
+Mosul; 2.065.597;   Irak; Asien
+Basra; 2.015.483;   Irak; Asien
+Zhengzhou; 2.014.125;   China; Asien
+Dakar; 1.998.635;   Senegal; Afrika
+Shijiazhuang; 1.992.474;   China; Asien
+Taschkent; 1.978.078;   Usbekistan; Asien
+Indore; 1.967.229;   Indien; Asien
+Accra; 1.963.264;   Ghana; Afrika
+Medellín; 1.955.753;   Kolumbien; Südamerika
+Maracaibo; 1.948.269;   Venezuela; Südamerika
+Yaoundé; 1.926.496;   Kamerun; Afrika
+Douala; 1.884.802;   Kamerun; Afrika
+Jilin; 1.881.977;   China; Asien
+Sapporo; 1.880.875;   Japan; Asien
+Hangzhou; 1.878.129;   China; Asien
+Bukarest; 1.877.155;   Rumänien; Europa
+Nanchang; 1.871.351;   China; Asien
+Caracas; 1.815.681;   Venezuela; Südamerika
+Ecatepec de Morelos; 1.806.297;   Mexiko; Nordamerika
+Rawalpindi; 1.793.197;   Pakistan; Asien
+Hamburg; 1.773.218;   Deutschland; Europa
+Medan; 1.763.874;   Indonesien; Asien
+Minsk; 1.753.245;   Weißrussland; Europa
+Patna; 1.722.140;   Indien; Asien
+Budapest; 1.721.556;   Ungarn; Europa
+Curitiba; 1.718.433;   Brasilien; Südamerika
+Warschau; 1.716.655;   Polen; Europa
+Wien; 1.712.903;   Österreich; Europa
+Soweto; 1.695.047;   Südafrika; Afrika
+Bhopal; 1.686.792;   Indien; Asien
+Brisbane; 1.683.999;   Australien; Australien
+Bandung; 1.651.840;   Indonesien; Asien
+Qingdao; 1.642.245;   China; Asien
+Guadalajara; 1.640.649;   Mexiko; Nordamerika
+al-Chartum Bahri; 1.626.638;   Sudan; Afrika
+Aleppo; 1.626.218;   Syrien; Asien
+Ludhiana; 1.624.767;   Indien; Asien
+Rabat; 1.622.860;   Marokko; Afrika
+Montreal; 1.620.693;   Kanada; Nordamerika
+Bekasi; 1.619.775;   Indonesien; Asien
+Pretoria; 1.619.438;   Südafrika; Afrika
+Barcelona; 1.615.908;   Spanien; Europa
+Thane; 1.612.738;   Indien; Asien
+Manaus; 1.598.227;   Brasilien; Südamerika
+Tangshan; 1.596.949;   China; Asien
+Kaduna; 1.582.211;   Nigeria; Afrika
+Damaskus; 1.580.909;   Syrien; Asien
+Manila; 1.568.926;   Philippinen; Asien
+Phoenix; 1.552.259;   Vereinigte Staaten; Nordamerika
+Isfahan; 1.547.241;   Iran; Asien
+Harare; 1.542.813;   Simbabwe; Afrika
+Kobe; 1.525.389;   Japan; Asien
+Agra; 1.521.112;   Indien; Asien
+Algier; 1.518.083;   Algerien; Afrika
+Quito; 1.516.353;   Ecuador; Südamerika
+Kaohsiung; 1.512.677;   Taiwan; Asien
+Ürümqi; 1.508.225;   China; Asien
+Recife; 1.478.118;   Brasilien; Südamerika
+Daejeon; 1.475.220;   Südkorea; Asien
+Kyoto; 1.474.764;   Japan; Asien
+Multan; 1.471.478;   Pakistan; Asien
+Kumasi; 1.468.609;   Ghana; Afrika
+Philadelphia; 1.449.634;   Vereinigte Staaten; Nordamerika
+Charkiw; 1.464.740;   Ukraine; Europa
+Vadodara; 1.462.058;   Indien; Asien
+Kuala Lumpur; 1.453.978;   Malaysia; Asien
+Pimpri-Chinchwad; 1.452.620;   Indien; Asien
+Karadsch; 1.448.996;   Iran; Asien
+Caloocan; 1.438.852;   Philippinen; Asien
+Tangerang; 1.433.427;   Indonesien; Asien
+Hanoi; 1.431.377;   Vietnam; Asien
+Bursa; 1.431.000;   Türkei; Asien
+Täbris; 1.424.701;   Iran; Asien
+Gujranwala; 1.421.834;   Pakistan; Asien
+Nowosibirsk; 1.419.007;   Russland; Asien
+Lanzhou; 1.417.742;   China; Asien
+Hyderabad; 1.417.082;   Pakistan; Asien
+Gwangju; 1.416.937;   Südkorea; Asien
+Faridabad; 1.411.063;   Indien; Asien
+Belém; 1.407.737;   Brasilien; Südamerika
+Ciudad Juárez; 1.403.025;   Mexiko; Nordamerika
+Fushun; 1.400.646;   China; Asien
+Fukuoka; 1.400.621;   Japan; Asien
+Conakry; 1.399.981;   Guinea; Afrika
+Puebla; 1.392.137;   Mexiko; Nordamerika
+Antananarivo; 1.391.506;   Madagaskar; Afrika
+Luoyang; 1.390.581;   China; Asien
+Hefei; 1.388.904;   China; Asien
+Valencia; 1.385.202;   Venezuela; Südamerika
+Makassar; 1.380.840;   Indonesien; Asien
+Tijuana; 1.376.494;   Mexiko; Nordamerika
+Lubumbashi; 1.374.808;   Demokratische Republik Kongo; Afrika
+Porto Alegre; 1.372.763;   Brasilien; Südamerika
+Santa Cruz de la Sierra; 1.368.390;   Bolivien; Südamerika
+München; 1.364.980;   Deutschland; Europa
+Handan; 1.358.318;   China; Asien
+Kampala; 1.353.236;   Uganda; Afrika
+Suzhou; 1.343.091;   China; Asien
+Shantou; 1.333.973;   China; Asien
+Barranquilla; 1.329.579;   Kolumbien; Südamerika
+San Antonio; 1.328.984;   Vereinigte Staaten; Nordamerika
+Davao City; 1.328.231;   Philippinen; Asien
+Kawasaki; 1.327.009;   Japan; Asien
+Córdoba; 1.318.992;   Argentinien; Südamerika
+Depok; 1.315.173;   Indonesien; Asien
+Phnom Penh; 1.313.851;   Kambodscha; Asien
+La Matanza; 1.306.729;   Argentinien; Südamerika
+Mailand; 1.299.439;   Italien; Europa
+Bamako; 1.297.390;   Mali; Afrika
+Mekka; 1.294.168;   Saudi-Arabien; Asien
+Nashik; 1.289.497;   Indien; Asien
+Jekaterinburg (Swerdlowsk); 1.287.573;   Russland; Asien
+Semarang; 1.286.938;   Indonesien; Asien
+Nischni Nowgorod (Gorki); 1.284.164;   Russland; Europa
+Baotou; 1.279.437;   China; Asien
+Adana; 1.271.894;   Türkei; Asien
+Montevideo; 1.269.648;   Uruguay; Südamerika
+Lusaka; 1.267.458;   Sambia; Afrika
+San Diego; 1.266.731;   Vereinigte Staaten; Nordamerika
+Kalyan-Dombivli; 1.262.255;   Indien; Asien
+Palembang; 1.257.449;   Indonesien; Asien
+Peshawar; 1.253.687;   Pakistan; Asien
+Beirut; 1.251.739;   Libanon; Asien
+Schiraz; 1.249.972;   Iran; Asien
+Suwon; 1.242.799;   Südkorea; Asien
+Dallas; 1.240.499;   Vereinigte Staaten; Nordamerika
+Port-au-Prince; 1.234.742;   Haiti; Nordamerika
+Perth; 1.234.364;   Australien; Australien
+Nezahualcóyotl; 1.232.565;   Mexiko; Nordamerika
+Mogadischu; 1.226.654;   Somalia; Afrika
+Merath; 1.223.184;   Indien; Asien
+Amman; 1.217.924;   Jordanien; Asien
+Mandalay; 1.208.099;   Myanmar; Asien
+Almaty; 1.204.762;   Kasachstan; Asien
+Anshan; 1.199.275;   China; Asien
+Xuzhou; 1.199.193;   China; Asien
+Ghaziabad; 1.199.191;   Indien; Asien
+Goyang; 1.195.590;   Südkorea; Asien
+Baku; 1.194.524;   Aserbaidschan; Asien
+Maputo; 1.191.613;   Mosambik; Afrika
+Prag; 1.188.126;   Tschechien; Europa
+Fuzhou; 1.179.720;   China; Asien
+Rajkot; 1.177.362;   Indien; Asien
+Saitama; 1.176.269;   Japan; Asien
+Guiyang; 1.171.633;   China; Asien
+Goiania; 1.171.209;   Brasilien; Südamerika
+Guarulhos; 1.169.601;   Brasilien; Südamerika
+Aurangabad; 1.167.649;   Indien; Asien
+Varanasi; 1.164.404;   Indien; Asien
+Adelaide; 1.158.259;   Australien; Australien
+Sofia; 1.156.796;   Bulgarien; Europa
+Hiroshima; 1.154.595;   Japan; Asien
+Tripolis; 1.150.989;   Libyen; Afrika
+Port Harcourt; 1.148.753;   Nigeria; Afrika
+Managua; 1.140.506;   Nicaragua; Nordamerika
+Brazzaville; 1.138.044;   Republik Kongo; Afrika
+Dubai; 1.137.347;   Vereinigte Arabische Emirate; Asien
+Samara (Kujbyschew); 1.134.730;   Russland; Europa
+Omsk; 1.129.281;   Russland; Asien
+Benin-Stadt; 1.125.126;   Nigeria; Afrika
+Monterrey; 1.122.912;   Mexiko; Nordamerika
+León; 1.114.662;   Mexiko; Nordamerika
+Belgrad; 1.113.589;   Serbien; Europa
+Maiduguri; 1.112.511;   Nigeria; Afrika
+Wuxi; 1.108.647;   China; Asien
+Kasan; 1.104.738;   Russland; Europa
+Gaziantep; 1.102.364;   Türkei; Asien
+Jerewan; 1.093.485;   Armenien; Asien
+Amritsar; 1.092.450;   Indien; Asien
+Qom; 1.081.745;   Iran; Asien
+Odessa; 1.080.000;   Ukraine; Europa
+Taichung; 1.078.348;   Taiwan; Asien
+Rostow am Don; 1.074.482;   Russland; Europa
+Allahabad; 1.073.438;   Indien; Asien
+Brüssel; 1.067.557;   Belgien; Europa
+Visakhapatnam; 1.063.178;   Indien; Asien
+Tscheljabinsk; 1.062.919;   Russland; Asien
+Datong; 1.052.678;   China; Asien
+Tiflis; 1.049.498;   Georgien; Asien
+Xianyang; 1.034.081;   China; Asien
+Ufa; 1.033.338;   Russland; Europa
+Dnipropetrowsk; 1.032.816;   Ukraine; Europa
+Seongnam; 1.032.060;   Südkorea; Asien
+Campinas; 1.031.573;   Brasilien; Südamerika
+Ouagadougou; 1.031.330;   Burkina Faso; Afrika
+Jabalpur; 1.030.168;   Indien; Asien
+Ulan Bator; 1.029.900;   Mongolei; Asien
+Haora; 1.027.672;   Indien; Asien
+Huainan; 1.027.655;   China; Asien
+Sendai; 1.024.947;   Japan; Asien
+Kunming; 1.023.674;   China; Asien
+Schubra al-Chaima; 1.016.722;   Ägypten; Afrika
+Birmingham; 1.012.010;   Vereinigtes Königreich; Europa
+Rongcheng; 1.001.985;   China; Asien
+Köln; 1.000.660;   Deutschland; Europa

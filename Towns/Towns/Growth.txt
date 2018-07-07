@@ -1,0 +1,10 @@
+Bevölkerung, in Mio.
+Kontinent	2010	2025	2050
+
+Welt	6.909	8.012	9.150
+Asien	4.167	4.773	5.231
+Afrika	1.033	1.400	1.998
+Südamerika	589	670	729
+Europa	733	729	691
+Nordamerika	352	398	448
+Australien	36	43	51

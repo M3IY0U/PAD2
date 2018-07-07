@@ -1,0 +1,7 @@
+﻿  main.cpp
+e:\programming\git\pad2\towns\towns\main.cpp(70): warning C4018: '<': signed/unsigned mismatch
+e:\programming\git\pad2\towns\towns\main.cpp(78): warning C4018: '<': signed/unsigned mismatch
+e:\programming\git\pad2\towns\towns\main.cpp(84): warning C4018: '<': signed/unsigned mismatch
+e:\programming\git\pad2\towns\towns\main.cpp(85): warning C4018: '<': signed/unsigned mismatch
+e:\programming\git\pad2\towns\towns\main.cpp(96): warning C4018: '<': signed/unsigned mismatch
+  Towns.vcxproj -> E:\Programming\Git\PAD2\Towns\Debug\Towns.exe

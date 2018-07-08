@@ -94,7 +94,6 @@ int main() {
 						if (text[i + 2] == ' ' && text[i + 3] == ' ' && text[i + 4] == ' ') {
 							space = true;
 						}
-
 						string textsub = text.substr(0, i);
 						vector<char> toDec(textsub.begin(), textsub.end());
 						text.erase(0, text.find_first_not_of(" ", i));
@@ -107,7 +106,6 @@ int main() {
 									space = false;
 								}
 							}
-
 						}
 					}
 				}
@@ -116,6 +114,30 @@ int main() {
 
 		}break;
 		case '4': {
+			vector<char> excl = { '-',' ', '.',' ','-',' ','.',' ','-',' ','-' };
+			Code c('1', excl);
+			characters.push_back(c);
+			ifstream counts("symbolCounts.txt", ios::in);
+			map<char, int> sc;
+			string count, character;
+			while (getline(counts, character, '\t') && getline(counts, count)) {
+				sc.emplace(character[0], stoi(count));
+			}
+			unsigned timeU = 0;
+			for (auto i : sc) {
+				if (i.first == ' ') {
+					timeU += i.second * 4;
+					continue;
+				}
+				for (auto l : characters) {
+					if (l.getCharacter() == i.first) {
+						timeU += i.second*(l.getCodeLength() + 3);
+					}
+				}
+			}
+			timeU -= 3;
+
+			cout << (timeU /100)/60 << " Stunden" << endl;
 
 		}break;
 		}

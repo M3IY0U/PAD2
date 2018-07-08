@@ -1,0 +1,6 @@
+﻿  main.cpp
+e:\programming\git\pad2\morse\morse\main.cpp(35): warning C4018: '<': signed/unsigned mismatch
+e:\programming\git\pad2\morse\morse\main.cpp(66): warning C4018: '<': signed/unsigned mismatch
+e:\programming\git\pad2\morse\morse\main.cpp(91): warning C4018: '<': signed/unsigned mismatch
+e:\programming\git\pad2\morse\morse\main.cpp(102): warning C4018: '<': signed/unsigned mismatch
+  Morse.vcxproj -> E:\Programming\Git\PAD2\Morse\Debug\Morse.exe
